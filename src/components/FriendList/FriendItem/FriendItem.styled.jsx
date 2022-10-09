@@ -1,14 +1,6 @@
 import styled from "@emotion/styled";
 
-export const FriendsList = styled.ul`
-  width: 300px;
-  list-style: none;
-  padding: 0;
-
-
-`;
-
-export const FriendItem = styled.li`
+export const Item = styled.li`
   display: flex;
   align-items: center; 
   margin-top: 10px;
@@ -42,7 +34,7 @@ export const Status = styled.span`
 `
 
 
-export const FriendAvatar = styled.img`
+export const Avatar = styled.img`
   display: block;
   width: 50px;
   height: 50px;
@@ -50,7 +42,7 @@ export const FriendAvatar = styled.img`
   overflow: hidden;
 `;
 
-export const FriendName = styled.p`
+export const Name = styled.p`
   font-size: 20px;
   margin: 0;
   margin-left: 20px;
